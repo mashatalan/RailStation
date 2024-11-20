@@ -14,7 +14,7 @@ public:
 	Train(int, string, string);
 	int getNumberTrain() const;
 	string getDepartureTime() const;
-	string getDestinationStation();
+	string getDestinationStation() const;
 	void inputTrainInfo();
 	void displayTrainInfo() const;
 

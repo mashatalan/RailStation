@@ -14,7 +14,7 @@ string Train::getDepartureTime() const
 	return this->departureTime;
 }
 
-string Train::getDestinationStation()
+string Train::getDestinationStation() const
 {
 	return this->destinationStation;
 }
@@ -32,5 +32,5 @@ void Train::inputTrainInfo()
 
 void Train::displayTrainInfo() const
 {
-	cout << "Number train : " << this->numberTrain << "departure time : " << this->destinationStation << "destination station : " << this->destinationStation << "\n";
+	cout << "Number train : " << this->numberTrain << "\n" << "departure time : " << this->departureTime << "\n"<< "destination station : " << this->destinationStation << "\n";
 }
