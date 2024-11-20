@@ -74,7 +74,7 @@ void Station::searchByDestinationStation(const string& station) const
 	}
 }
 
-int Station::getCounTrain() const
+int Station::getCountTrain() const
 {
 	return trains.size();
 }

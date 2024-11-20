@@ -13,6 +13,6 @@ public:
 	void searchByNumberTrain(int) const;
 	void searchByDepartureTime(const string&) const;
 	void searchByDestinationStation(const string&) const;
-	int getCounTrain() const;	
+	int getCountTrain() const;	
 };
 

@@ -32,7 +32,7 @@ int main()
 		}
 		case 2:
 		{
-			cout << "All trains : " << station.getCounTrain() << "\n\n";
+			cout << "All trains : " << station.getCountTrain() << "\n\n";
 			station.displayAllTrains();
 			break;
 		}
